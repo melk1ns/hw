@@ -1,0 +1,28 @@
+* html {
+	font-family: 'DM Serif Display', serif;
+}
+.btn {
+	background: black;
+	color: white;
+	border-radius: 30px;
+	width: 263px;
+	height: 71px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0.72;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+	border: none;
+}
+.btn:hover {
+	background: aquamarine;
+}
+.star {
+	width: 200px;
+	transition-property: width;
+	transition: width 2s ease-in-out 1s;
+}
+.star:hover {
+	transform: scale(1.5);
+}
