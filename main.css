@@ -21,7 +21,7 @@
 .star {
 	width: 200px;
 	transition-property: width;
-	transition: width, 2s, ease-in-out, 1s;
+	transition: width 2s ease-in-out 1s;
 }
 .star:hover {
 	transform: scale(1.5);
