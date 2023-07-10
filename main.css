@@ -1,0 +1,68 @@
+.animation1 {
+	width: 100px;
+	height: 100px;
+	animation-name: square;
+	animation-iteration-count: 3;
+	animation-duration: 5s;
+}
+@keyframes square {
+	0% {
+		background: red;
+	}
+	20% {
+		background: orangered;
+	}
+	40% {
+		background: yellow;
+	}
+	60% {
+		background: green;
+	}
+	80% {
+		background: rgb(79, 165, 194);
+	}
+	100% {
+		background: purple;
+	}
+}
+.animation2 {
+	margin-top: 30px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 1px solid black;
+	animation-name: circle;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+}
+@keyframes circle {
+	0% {
+		transform: scale(1);
+	}
+	20% {
+		transform: scale(1.5);
+	}
+
+	80% {
+		transform: scale(1.5);
+	}
+}
+.animation3 {
+	margin-top: 30px;
+	width: 100px;
+	height: 100px;
+	background: black;
+	animation-name: infinitesquare;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes infinitesquare {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(100vw);
+	}
+}
