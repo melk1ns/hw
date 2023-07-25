@@ -1,0 +1,82 @@
+.icons {
+	display: flex;
+	justify-content: space-evenly;
+	width: 270px;
+}
+.icon {
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+}
+.icon-background {
+	background: #fff;
+	border-radius: 50%;
+	width: 44px;
+	height: 44px;
+}
+.icon:hover {
+	fill: #fff;
+}
+.icon-background:hover {
+	background: #2196f3;
+}
+.icon2 {
+	width: 170px;
+	height: 92px;
+	border-radius: 4px;
+	border: 1px solid #afb1b8;
+}
+.icon2:hover {
+	border-color: #2196f3;
+	fill: #2196f3;
+}
+.icons3 {
+	width: 206px;
+	height: 80px;
+	display: flex;
+	align-items: flex-end;
+}
+.icon3 {
+	fill: #fff;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	padding: 10px;
+}
+.icon3-background {
+	background: #2f303a;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+}
+.icon3-background:hover {
+	background: #2196f3;
+}
+.e-mail {
+	display: flex;
+}
+.post {
+	width: 16px;
+	height: 12px;
+	margin-right: 5px;
+}
+.post:hover {
+	fill: #2196f3;
+}
+.smartphone {
+	width: 10px;
+	height: 16px;
+	margin-right: 5px;
+}
+.tel {
+	display: flex;
+}
+.tel:hover {
+	fill: #2196f3;
+}
+p {
+	color: #757575;
+}
+p:hover {
+	color: #2196f3;
+}
