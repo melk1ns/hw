@@ -1,0 +1,232 @@
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+.menu {
+  display: flex;
+  width: 287px;
+  justify-content: space-between;
+}
+
+.menu-item {
+  list-style: none;
+  transition: text-decoration 1000ms ease-in;
+  position: relative;
+  padding-bottom: 28px;
+}
+
+.menu-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+  transform: scale(0);
+  transition: transform 500ms ease-out;
+}
+
+.menu-item:hover::before {
+  transform: scale(1.5);
+}
+
+.menu-link {
+  color: #212121;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: #2196f3;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.buttons {
+  display: flex;
+  margin: 0 auto;
+  width: 575px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.btn {
+  border-radius: 4px;
+  background: #f5f4fa;
+  border: none;
+  padding: 6px 25px;
+  color: #212121;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+}
+
+.btn:hover {
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+}
+
+.items {
+  width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+}
+
+.item {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+  /* position: relative; */
+}
+
+.img {
+  width: 100%;
+  height: 80%;
+}
+
+.img_wrapper {
+  position: relative;
+  width: 370px;
+  height: 294px;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #2196f3e5;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  transform: translateY(-100%);
+  transition: 1s ease-in;
+}
+.text-wrapper {
+  width: 322px;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay-text {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.54px;
+  width: 322px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.img_wrapper:hover .overlay {
+  transform: translateY(0);
+}
+
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.img_wrapper:hover .overlay:hover {
+  transform: translateY(0);
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.subtext {
+  color: #212121;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+
+.subtitle {
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
+.right-menu {
+  width: 280px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.overlay-menu {
+  background: #7e7e7e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-90%);
+  transition: 1s ease-in;
+}
+.overlay-menu:hover {
+  transform: translateX(0);
+}
+.overlay-menu-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.overlay-menu-text {
+  color: #fff;
+  list-style: square;
+}
+.overlay-menu-text:hover {
+  color: #d89109;
+}
